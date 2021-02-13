@@ -169,7 +169,7 @@ function reset() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("DON'T\nTOUCH\nMY\nBIRDIE");
+    scoreText.setText("TWINKLE\nTWINKLE\nLITTLE\nSTART");
     instText.setText("TOUCH TO START");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
