@@ -170,7 +170,7 @@ function reset() {
     score = 0;
     credits.renderable = true;
     scoreText.setText("DON'T\nTOUCH\nMY\nBIRDIE");
-    instText.setText("TOUCH TO FLAP\nBIRDIE WINGS");
+    instText.setText("TOUCH TO START");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
