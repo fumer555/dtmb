@@ -98,7 +98,7 @@ function create() {
     birdie = game.add.sprite(0, 0, 'birdie');
     birdie.anchor.setTo(0.5, 0.5);
     birdie.animations.add('fly', [0], 10, true);
-    birdie.animations.add('cobra', [0], 60, false);
+    birdie.animations.add('cobra', [0], 10, false);
     birdie.inputEnabled = true;
     birdie.body.collideWorldBounds = true;
     birdie.body.gravity.y = GRAVITY;
