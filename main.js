@@ -98,7 +98,7 @@ function create() {
     birdie = game.add.sprite(0, 0, 'birdie');
     birdie.anchor.setTo(0.5, 0.5);
     birdie.animations.add('fly', [0], 10, true);
-    birdie.animations.add('cobra', [0], 10, false);
+    birdie.animations.add('cobra', [0], 60, false);
     birdie.inputEnabled = true;
     birdie.body.collideWorldBounds = true;
     birdie.body.gravity.y = GRAVITY;
@@ -316,7 +316,7 @@ function update() {
         ) {
             birdie.angle = 90;
             birdie.animations.stop();
-            birdie.frame = 3;
+            birdie.frame = 0;
         } else {
             birdie.animations.play(cobraMode > 0 ? 'cobra' : 'fly');
         }
