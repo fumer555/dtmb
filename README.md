@@ -1,5 +1,7 @@
 # Don't Touch My Birdie
 
+https://fumer555.github.io/dtmb/
+
 A clone of the widely-popular game [Flappy Bird](http://en.wikipedia.org/wiki/Flappy_Bird) created using the [Phaser framework](http://phaser.io/).
 
 [Open in your mobile browser](https://marksteve.com/dtmb)
