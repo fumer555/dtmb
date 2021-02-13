@@ -244,7 +244,7 @@ function spawnFinger(fingerY, flipped) {
     finger.body.offset.y = flipped ? -finger.body.height * 2 : 0;
 
     // Move to the left
-    finger.body.velocity.x = -SPEED;
+    finger.body.velocity.x = -2 * SPEED;
 
     return finger;
 }
