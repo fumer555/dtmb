@@ -169,8 +169,8 @@ function reset() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("TWINKLE\nTWINKLE\nLITTLE\nSTART");
-    instText.setText("TOUCH TO START");
+    scoreText.setText("白色\n情人节\n快乐\nEva！");
+    instText.setText("开始玩吧");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
     birdie.angle = 0;
@@ -278,7 +278,7 @@ function addScore(_, inv) {
 
 function setGameOver() {
     gameOver = true;
-    instText.setText("TOUCH STAR\nTO TRY AGAIN");
+    instText.setText("点击橙子\n重新开始");
     instText.renderable = true;
     var hiscore = window.localStorage.getItem('hiscore');
     hiscore = hiscore ? hiscore : score;
