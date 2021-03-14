@@ -169,7 +169,7 @@ function reset() {
     gameOver = false;
     score = 0;
     credits.renderable = true;
-    scoreText.setText("白色\n情人节\n快乐\nEva！");
+    scoreText.setText("Eva！\n白色情人节！\n快乐！\n心想事橙！");
     instText.setText("开始玩吧");
     gameOverText.renderable = false;
     birdie.body.allowGravity = false;
