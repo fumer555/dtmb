@@ -252,7 +252,7 @@ function spawnFinger(fingerY, flipped) {
 function spawnFingers() {
     fingersTimer.stop();
 
-    var fingerY = ((game.height - 16 - o() / 2) / 2) + (Math.random() > 0.5 ? -1 : 1) * Math.random() * game.height / 6;
+    var fingerY = ((game.height - 24 - o() / 2) / 2) + (Math.random() > 0.5 ? -1 : 1) * Math.random() * game.height / 6;
     // Bottom finger
     var botFinger = spawnFinger(fingerY);
     // Top finger (flipped)
